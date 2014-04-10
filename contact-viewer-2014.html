@@ -1,40 +1,147 @@
 ﻿<html>
 <head>
-	<title>Contact Viewer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="contact-viewer-2014.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="contact-viewer-2014.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </head>
 <body>
 
 <div data-role="page" id="home">
-	<div data-role="header">
-		<h1>Page Title</h1>
-	</div><!-- /header -->
+    <div data-role="header">
+        <h1>Contact Viewer v1.0</h1>
+        <a class="" data-role="button" href="#newContactPage" data-transition="slide">
+            Add Contact
+        </a>
+    </div>
 
-	<div role="main" class="ui-content">
-		<ul data-role="listview" id="contact-list">
-			<li>
-				<a href="">Foo</a>
-			</li>
+    <div role="main" class="ui-content">
+        <ul data-role="listview" id="contact-list">
+        </ul>
+    </div>
 
-			<li>
-				<a href="">Bar</a>
-			</li>
+    <div data-role="footer">
+        <h4>(c) Team Flyte</h4>
+    </div>
+</div>
 
-			<li>
-				<a href="">Baz</a>
-			</li>
-		</ul>
-	</div><!-- /content -->
+<div data-role="page" id="newContactPage">
+    <div data-role="header">
+        <h1>Add new contact</h1>
+        <a data-role="button" data-rel="back">Back</a>
+        <a class="" data-role="button" data-transition="slide">
+            Save
+        </a>
+    </div>
 
-	<div data-role="footer">
-		<h4>Page Footer</h4>
-	</div><!-- /footer -->
-</div><!-- /page -->
+    <div role="main" class="ui-content">
+        <div>
+            <h3>Name</h3>
+            <input data-role="text" id="newContactName"/>
+        </div>
+        <div>
+            <h3>Title</h3>
+            <input data-role="text" id="newTitle"/>
+        </div>
+        <div>
+            <h3>Phone</h3>
+            <input data-role="text" id="newPhone"/>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <input data-role="text" id="newEmail"/>
+        </div>
+        <div>
+            <h3>Twitter Handle</h3>
+            <input data-role="text" id="newHandle"/>
+        </div>
+    </div>
+
+    <div data-role="footer">
+        <h4>(c) Team Flyte</h4>
+    </div>
+</div>
+
+<div data-role="page" id="contactDetailPage">
+    <div data-role="header">
+        <h1>Contact Details</h1>
+        <a data-role="button" data-rel="back">Back</a>
+        <a class="" data-role="button" data-transition="slide">
+            Edit
+        </a>
+    </div>
+
+    <div role="main" class="ui-content">
+        <div>
+            <h3>Name</h3>
+            <span id="contactName"></span>
+        </div>
+        <div>
+            <h3>Title</h3>
+            <span id="contactTitle"></span>
+        </div>
+        <div>
+            <h3>Phone</h3>
+            <span id="contactPhone"></span>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <span id="contactEmail"></span>
+        </div>
+        <div>
+            <h3>Twitter Handle</h3>
+            <span id="contactHandle"></span>
+        </div>
+    </div>
+
+    <div data-role="footer">
+        <h4>(c) Team Flyte</h4>
+    </div>
+</div>
+
+<div data-role="page" id="editContactPage">
+    <div data-role="header">
+        <h1>Edit contact</h1>
+        <a data-role="button" data-rel="back">Back</a>
+        <a class="" data-role="button" data-transition="slide">
+            Save
+        </a>
+        <a class="" data-role="button" data-transition="slide">
+            Delete
+        </a>
+    </div>
+
+    <div role="main" class="ui-content">
+        <div role="main" class="ui-content">
+            <div>
+                <h3>Name</h3>
+                <input data-role="text" id="editContactName"/>
+            </div>
+            <div>
+                <h3>Title</h3>
+                <input data-role="text" id="editTitle"/>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <input data-role="text" id="editPhone"/>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <input data-role="text" id="editEmail"/>
+            </div>
+            <div>
+                <h3>Twitter Handle</h3>
+                <input data-role="text" id="editHandle"/>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h4>(c) Team Flyte</h4>
+        </div>
+    </div>
 
 </body>
 </html>
