@@ -98,7 +98,6 @@ $(document).on("pagebeforeshow", "#contactDetailPage", function (event, data) {
             $contactDetails.find('#contactHandle')[0].innerText = _currentContact.twitterId;
         });
     } else {
-        alert("You need to select a contact before navigating to this page.");
         $.mobile.changePage("#home");
 
     }
@@ -133,20 +132,17 @@ $(document).on("pagebeforeshow", "#editContactPage", function (event) {
             saveCurrentContact(contact, function (contact) {
                 _currentContact = contact;
                 _currentContactId = contact._id;
-                alert("contact has been saved!");
-                $.mobile.changePage("#contactDetailPage");
+                $.mobile.changePage("#home", { transition: "slide", reverse: true });
             });
         });
 
         // On delete event handler
         $contactDetails.find('#editContactDelete').on("click", function (event) {
             deleteContact(function () {
-                alert("Contact has been deleted!");
                 $.mobile.changePage("#home");
             });
         });
     } else {
-        alert("You need to select a contact before navigating to this page.");
         $.mobile.changePage("#home");
 
     }
@@ -171,8 +167,7 @@ $(document).on("pagebeforeshow", "#newContactPage", function (event) {
         saveNewContact(contact, function () {
             _currentContact = contact;
             _currentContactId = contact._id;
-            alert("contact has been saved!");
-            $.mobile.changePage("#contactDetailPage");
+            $.mobile.changePage("#home", { transition: "slide", reverse: true });
         });
     });
 });
