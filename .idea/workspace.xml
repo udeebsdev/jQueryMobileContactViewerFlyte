@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091e6c69-5641-4ab3-88ed-55383733b783" name="Default" comment="" />
+    <list default="true" id="091e6c69-5641-4ab3-88ed-55383733b783" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-viewer-2014.html" afterPath="$PROJECT_DIR$/contact-viewer-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-viewer-2014.js" afterPath="$PROJECT_DIR$/contact-viewer-2014.js" />
+    </list>
     <ignored path="jQueryMobileContactViewerFlyte.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +25,14 @@
     <favorites_list name="jQueryMobileContactViewerFlyte" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.6588381">
+    <splitter split-orientation="vertical" split-proportion="0.72311497">
       <split-first>
         <leaf>
           <file leaf-file-name="contact-viewer-2014.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contact-viewer-2014.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8672769" vertical-offset="296" max-vertical-offset="780">
-                  <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+                <state vertical-scroll-proportion="-0.93370163" vertical-offset="1677" max-vertical-offset="2745">
+                  <caret line="78" column="78" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +45,8 @@
           <file leaf-file-name="contact-viewer-2014.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contact-viewer-2014.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8986175" vertical-offset="1095" max-vertical-offset="2280">
-                  <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="2295">
+                  <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
                   <folding />
                 </state>
               </provider>
@@ -70,9 +73,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
     <option name="y" value="22" />
-    <option name="width" value="1384" />
+    <option name="width" value="1438" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -191,7 +193,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1384" height="878" extended-state="7" />
+    <frame x="0" y="22" width="1438" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -199,7 +201,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24061196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -238,16 +240,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contact-viewer-2014.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8986175" vertical-offset="1095" max-vertical-offset="2280">
-          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-viewer-2014.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8672769" vertical-offset="296" max-vertical-offset="780">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state vertical-scroll-proportion="-0.93370163" vertical-offset="1677" max-vertical-offset="2745">
+          <caret line="78" column="78" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
           <folding />
         </state>
       </provider>

@@ -32,7 +32,7 @@
     <div data-role="header">
         <h1>Add new contact</h1>
         <a data-role="button" data-rel="back">Back</a>
-        <a class="" data-role="button" data-transition="slide">
+        <a id="newContactSave" class="" data-role="button" data-transition="slide">
             Save
         </a>
     </div>
@@ -44,19 +44,19 @@
         </div>
         <div>
             <h3>Title</h3>
-            <input data-role="text" id="newTitle"/>
+            <input data-role="text" id="newContactTitle"/>
         </div>
         <div>
             <h3>Phone</h3>
-            <input data-role="text" id="newPhone"/>
+            <input data-role="text" id="newContactPhone"/>
         </div>
         <div>
             <h3>Email</h3>
-            <input data-role="text" id="newEmail"/>
+            <input data-role="text" id="newContactEmail"/>
         </div>
         <div>
             <h3>Twitter Handle</h3>
-            <input data-role="text" id="newHandle"/>
+            <input data-role="text" id="newContactHandle"/>
         </div>
     </div>
 
@@ -69,7 +69,7 @@
     <div data-role="header">
         <h1>Contact Details</h1>
         <a data-role="button" data-rel="back">Back</a>
-        <a class="" data-role="button" data-transition="slide">
+        <a class="" data-role="button" href="#editContactPage" data-transition="slide">
             Edit
         </a>
     </div>
@@ -106,11 +106,8 @@
     <div data-role="header">
         <h1>Edit contact</h1>
         <a data-role="button" data-rel="back">Back</a>
-        <a class="" data-role="button" data-transition="slide">
+        <a id="editContactSave" class="" data-role="button" data-transition="slide">
             Save
-        </a>
-        <a class="" data-role="button" data-transition="slide">
-            Delete
         </a>
     </div>
 
@@ -122,20 +119,24 @@
             </div>
             <div>
                 <h3>Title</h3>
-                <input data-role="text" id="editTitle"/>
+                <input data-role="text" id="editContactTitle"/>
             </div>
             <div>
                 <h3>Phone</h3>
-                <input data-role="text" id="editPhone"/>
+                <input data-role="number" id="editContactPhone"/>
             </div>
             <div>
                 <h3>Email</h3>
-                <input data-role="text" id="editEmail"/>
+                <input data-role="email" id="editContactEmail"/>
             </div>
             <div>
                 <h3>Twitter Handle</h3>
-                <input data-role="text" id="editHandle"/>
+                <input data-role="text" id="editContactHandle"/>
             </div>
+
+            <a id="editContactDelete" class="" data-role="button" data-transition="slide">
+                Delete
+            </a>
         </div>
 
         <div data-role="footer">
